@@ -1,9 +1,14 @@
 .postcard {
   display: flex;
-
+  flex-direction: column-reverse;
+  align-items: start;
   &__arrow {
     width: 0px;
     height: 0px;
+    border-top: 2em solid yellow;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    margin-left: 10px;
   }
   &__card {
     background-color: black;
