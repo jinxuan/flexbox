@@ -1,7 +1,7 @@
 .postcard {
   display: flex;
   flex-direction: column-reverse;
-  align-items: start;
+  align-items: end;
 }
 .postcard__arrow {
   width: 0px;
