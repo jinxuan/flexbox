@@ -1,6 +1,6 @@
 .postcard {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: end;
 }
 .postcard__arrow {
@@ -8,7 +8,7 @@
   height: 0px;
   border-top: 2em solid transparent;
   border-bottom: 1em solid transparent;
-  border-right: 2em solid yellow;
+  border-left: 2em solid yellow;
   margin-bottom: 10px;
 }
 .postcard__card {
