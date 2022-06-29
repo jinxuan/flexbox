@@ -1,9 +1,14 @@
 .postcard {
   display: flex;
-
+  flex-direction: column;
+  align-items: flex-end;
   &__arrow {
     width: 0px;
     height: 0px;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent;
+    border-bottom: 2em solid yellow;
+    margin-right: 10px;
   }
   &__card {
     background-color: black;
